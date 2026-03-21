@@ -17,7 +17,7 @@ export default function Nav() {
 
   return (
     <nav className="nav">
-      <Link to="/" className="nav-logo">
+      <Link to="/" className="nav-logo" style={{ textDecoration: "none" }}>
         Click<span>n</span>Go
       </Link>
       <div className="nav-loc">
@@ -49,6 +49,7 @@ export default function Nav() {
             key={c.id}
             to={`/category/${c.id}`}
             className={`nav-tab${pathname === `/category/${c.id}` ? " active" : ""}`}
+            style={{ textDecoration: "none" }}
           >
             {c.label}
           </Link>

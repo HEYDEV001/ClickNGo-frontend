@@ -6,9 +6,9 @@ import { RECENT_BOOKINGS } from "../data/appData";
 const DEFAULT_USER = {
   name: "Sarah Anderson",
   email: "sarah.anderson@email.com",
-  phone: "+1 (555) 123-4567",
-  address: "Street 398, route 65, Las Vegas, USA",
-  joined: "2023",
+  phone: "+91 999-999-9999",
+  address: "SGSITS Indore",
+  joined: "2026",
 };
 
 export default function ProfilePage() {
