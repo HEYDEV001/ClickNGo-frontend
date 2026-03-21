@@ -58,7 +58,7 @@ export default function CategoryPage() {
                 backdropFilter: "blur(10px)",
               }}
             >
-              {cat?.icon}
+              <img src={cat?.icon} alt={cat?.label} style={{ width: 28, height: 28 }} />
             </span>
             <div>
               <div style={{ fontSize: 24, fontWeight: 800, fontFamily: "'Playfair Display',serif" }}>

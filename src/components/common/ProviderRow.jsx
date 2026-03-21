@@ -10,7 +10,7 @@ export default function ProviderRow({ p, onClick, accentColor }) {
           border: `1px solid ${accentColor || "#fff"}20`,
         }}
       >
-        {p.icon}
+        <img src={p.icon} alt={p.name} style={{ width: "60px", height: "60px", objectFit: "contain" }} />
       </div>
       <div style={{ flex: 1 }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 4 }}>

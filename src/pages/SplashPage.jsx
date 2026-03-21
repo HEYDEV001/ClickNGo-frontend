@@ -54,10 +54,10 @@ export default function SplashPage({ onDone }) {
           }}
         >
           {[
-            { icon: "HC", label: "HealthCare" },
-            { icon: "GR", label: "Grooming" },
-            { icon: "SG", label: "Gaming" },
-            { icon: "RE", label: "Real Estate" },
+            { icon: "/images/HC.png", label: "HealthCare" },
+            { icon: "/images/GR.png", label: "Grooming" },
+            { icon: "/images/SG.png", label: "Gaming" },
+            { icon: "/images/RE.png", label: "Real Estate" },
           ].map((item, i) => (
             <div
               key={i}
@@ -86,7 +86,7 @@ export default function SplashPage({ onDone }) {
                   animation: `float ${3 + i * 0.5}s ease-in-out ${i * 0.3}s infinite`,
                 }}
               >
-                {item.icon}
+                <img src={item.icon} alt={item.label} style={{ width: 32, height: 32 }} />
               </div>
             </div>
           ))}

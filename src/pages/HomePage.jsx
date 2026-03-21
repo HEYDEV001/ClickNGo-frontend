@@ -193,7 +193,7 @@ export default function HomePage() {
                 animationDelay: `${0.6 + i * 0.1}s`,
               }}
             >
-              <span style={{ fontSize: 22 }}>{c.icon}</span>
+              <img src={c.icon} alt={c.label} style={{ width: 30, height: 30 }} />
               <span style={{ fontSize: 14, fontWeight: 600 }}>{c.label}</span>
             </div>
           ))}
@@ -246,7 +246,7 @@ export default function HomePage() {
                     marginBottom: 16,
                   }}
                 >
-                  {cat.icon}
+                  <img src={cat.icon} alt={cat.label} style={{ width: 32, height: 32 }} />
                 </div>
                 <div style={{ fontSize: 17, fontWeight: 700, marginBottom: 10 }}>{cat.label}</div>
                 <div style={{ display: "flex", flexWrap: "wrap", gap: 7 }}>
@@ -289,19 +289,19 @@ export default function HomePage() {
                 n: "1",
                 title: "Browse Services",
                 desc: "Choose from a wide range of local providers categorized by your needs.",
-                icon: "01",
+                icon: "",
               },
               {
                 n: "2",
                 title: "Pick a Time",
                 desc: "View real-time availability and lock in a time that suits you perfectly.",
-                icon: "02",
+                icon: "",
               },
               {
                 n: "3",
                 title: "Book & Pay Securely",
                 desc: "Pay online and get instant confirmation. It's that simple.",
-                icon: "03",
+                icon: "",
               },
             ].map((step, i) => (
               <div

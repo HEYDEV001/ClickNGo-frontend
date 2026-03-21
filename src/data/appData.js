@@ -1,11 +1,11 @@
 export const CATEGORIES = [
-  { id:"grooming", label:"Grooming", icon:"GR", color:"#9b59b6", bg:"rgba(155,89,182,0.15)",
+  { id:"grooming", label:"Grooming", icon:"/images/GR.png", color:"#9b59b6", bg:"rgba(155,89,182,0.15)",
     subs:["Hair & Styling","Spa Services","Nail Care","Beard Trim","Hair Colour","Massage"] },
-  { id:"realestate", label:"Real Estate", icon:"RE", color:"#27ae60", bg:"rgba(39,174,96,0.15)",
+  { id:"realestate", label:"Real Estate", icon:"/images/RE.png", color:"#27ae60", bg:"rgba(39,174,96,0.15)",
     subs:["Residential","Commercial","Rental","Property Valuation","Legal Aid","Interior Design"] },
-  { id:"healthcare", label:"HealthCare", icon:"HC", color:"#2980b9", bg:"rgba(41,128,185,0.15)",
+  { id:"healthcare", label:"HealthCare", icon:"/images/HC.png", color:"#2980b9", bg:"rgba(41,128,185,0.15)",
     subs:["Dental Care","Physical Therapy","Medicines","General Physician","Eye Care","Lab Tests"] },
-  { id:"sports", label:"Sports & Gaming", icon:"SG", color:"#8e44ad", bg:"rgba(142,68,173,0.15)",
+  { id:"sports", label:"Sports & Gaming", icon:"/images/SG.png", color:"#8e44ad", bg:"rgba(142,68,173,0.15)",
     subs:["Gaming Hubs","Turfs","Arcade Parlour","Cricket Ground","Badminton Court","Swimming Pool"] },
 ];
 
