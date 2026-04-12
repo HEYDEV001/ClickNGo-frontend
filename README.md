@@ -3,7 +3,7 @@
 > **Book Local. Live Better.**  
 > A modern, multi-service local booking platform built for Indian cities.
 
-![ClicknGo Hero](./screenshots/hero.png)
+![ClicknGo Hero](./public/images/home.png)
 
 ---
 
@@ -21,16 +21,16 @@ The platform is designed around three core principles:
 ## 🖼️ Screenshots
 
 ### Hero — Landing Page
-![Landing Page](./screenshots/hero.png)
+![Landing Page](./public/images/home.png)
 
 ### Service Categories
-![Categories](./screenshots/categories.png)
+![Categories](./public/images/categories.png)
 
 ### How it Works & Why Choose Us
-![How It Works](./screenshots/how-it-works.png)
+![How It Works](./public/images/whyChooseUs.png)
 
 ### User Profile & Bookings Dashboard
-![Profile](./screenshots/profile.png)
+![Profile](./public/images/profile.png)
 
 ---
 
