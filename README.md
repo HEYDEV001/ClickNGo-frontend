@@ -218,7 +218,3 @@ Deploy the `dist/` folder to Vercel, Netlify, or any static hosting provider.
 [GitHub](https://github.com/HEYDEV001) · devpathak9685@gmail.com
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
