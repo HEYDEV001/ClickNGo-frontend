@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Project Objective
+##  Project Objective
 
 ClicknGo is a full-featured local services marketplace that enables users to **discover, browse, and book trusted service providers** in their city — all in one unified platform. The goal is to bridge the gap between local service providers (barbers, salons, real estate agents, healthcare professionals, gaming hubs) and everyday consumers through a clean, fast, and intuitive web experience.
 
@@ -18,7 +18,7 @@ The platform is designed around three core principles:
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
 ### Hero — Landing Page
 ![Landing Page](./public/images/home.png)
@@ -34,14 +34,14 @@ The platform is designed around three core principles:
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🔍 Service Discovery
+###  Service Discovery
 - Location-aware service browsing (city displayed in navbar)
 - Global search bar for quick service lookup
 - Category cards with subcategory tags (e.g., Grooming → Hair & Styling, Spa Services, Nail Care)
 
-### 📂 Service Categories
+###  Service Categories
 | Category | Subcategories |
 |---|---|
 | Grooming | Hair & Styling, Spa Services, Nail Care |
@@ -49,33 +49,33 @@ The platform is designed around three core principles:
 | HealthCare | Dental Care, Physical Therapy, Medicines |
 | Sports & Gaming | Gaming Hubs, Turfs, Arcade Parlour |
 
-### 📅 Real-Time Booking
+###  Real-Time Booking
 - Live provider availability calendar
 - Time slot selection with instant locking
 - Booking confirmation with zero wait time
 
-### 💳 Secure Payments
+###  Secure Payments
 - Integrated with **Razorpay** and **Stripe**
 - Fully encrypted transactions
 - Instant booking confirmation post-payment
 
-### 🔔 Notifications
+###  Notifications
 - SMS and email alerts at every step of the booking lifecycle
 
-### 👤 User Profile Dashboard
+###  User Profile Dashboard
 - Booking stats: Total, Completed, Cancelled, Pending Reviews
 - Recent bookings history
 - Edit profile functionality
 - Avatar with initials fallback
 
-### 🧭 Navigation
+###  Navigation
 - Persistent top navbar with category quick-links
 - Location indicator with city name
 - Auth-aware UI (shows user initials + name when logged in)
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 ClickNGo-frontend/
@@ -106,7 +106,7 @@ ClickNGo-frontend/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -121,7 +121,7 @@ ClickNGo-frontend/
 
 ---
 
-## 🚧 Challenges Faced & Optimizations
+##  Challenges Faced & Optimizations
 
 ### 1. Location-Aware UI Without Performance Overhead
 **Challenge:** Displaying the user's city dynamically in the navbar without blocking page render or causing layout shifts.  
@@ -159,7 +159,7 @@ ClickNGo-frontend/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js ≥ 18
@@ -187,7 +187,7 @@ The app will be running at `http://localhost:5173`
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 
 ```bash
 # Build for production
@@ -201,7 +201,7 @@ Deploy the `dist/` folder to Vercel, Netlify, or any static hosting provider.
 
 ---
 
-## 🔮 Roadmap
+##  Roadmap
 
 - [ ] Provider-side dashboard (vendor onboarding)
 - [ ] In-app messaging between users and providers
