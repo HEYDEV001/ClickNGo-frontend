@@ -187,20 +187,6 @@ The app will be running at `http://localhost:5173`
 
 ---
 
-##  Deployment
-
-```bash
-# Build for production
-npm run build
-
-# Preview the production build
-npm run preview
-```
-
-Deploy the `dist/` folder to Vercel, Netlify, or any static hosting provider.
-
----
-
 ##  Roadmap
 
 - [ ] Provider-side dashboard (vendor onboarding)
